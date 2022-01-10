@@ -1,0 +1,412 @@
+.container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  .title {
+    padding: 1rem;
+    text-align: center;
+  }
+  .aboutContainer {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    .left {
+      width: 400px;
+      .aboutTextOne {
+        margin-bottom: 100px;
+        padding: 1rem;
+        border: 1px solid #17a2b8;
+        border-radius: 10px;
+        &:hover {
+          background-color: var(--previewBg);
+          border: 1px solid #17a2b8;
+        }
+      }
+      .aboutTextTwo {
+        margin-bottom: 100px;
+        padding: 1rem;
+        border: 1px solid #17a2b8;
+        border-radius: 10px;
+        &:hover {
+          background-color: var(--previewBg);
+          border: 1px solid #17a2b8;
+        }
+      }
+      .aboutTextThree {
+        margin-bottom: 100px;
+        padding: 1rem;
+        border: 1px solid #17a2b8;
+        border-radius: 10px;
+        &:hover {
+          background-color: var(--previewBg);
+          border: 1px solid #17a2b8;
+        }
+      }
+      .aboutTextFour {
+        padding: 1rem;
+        border: 1px solid #17a2b8;
+        border-radius: 10px;
+        &:hover {
+          background-color: var(--previewBg);
+          border: 1px solid #17a2b8;
+        }
+      }
+    }
+    .line {
+      position: relative;
+      width: 1px;
+      min-height: auto;
+      height: 900px;
+      background-color: #17a2b8;
+      margin-right: 20px;
+      margin-left: 20px;
+      .dotOne {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 7px;
+        height: 7px;
+        border: 1.5px solid #17a2b8;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .dotTwo {
+        position: absolute;
+        top: 100px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 7px;
+        height: 7px;
+        border: 1.5px solid #17a2b8;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .dotThree {
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 7px;
+        height: 7px;
+        border: 1.5px solid #17a2b8;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .dotFour {
+        position: absolute;
+        top: 300px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 7px;
+        height: 7px;
+        border: 1.5px solid #17a2b8;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .dotFive {
+        position: absolute;
+        top: 400px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 7px;
+        height: 7px;
+        border: 1.5px solid #17a2b8;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .dotSix {
+        position: absolute;
+        top: 500px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 7px;
+        height: 7px;
+        border: 1.5px solid #17a2b8;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .dotSaven {
+        position: absolute;
+        top: 600px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 7px;
+        height: 7px;
+        border: 1.5px solid #17a2b8;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+      .dotEight {
+        position: absolute;
+        top: 700px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 7px;
+        height: 7px;
+        border: 1.5px solid #17a2b8;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+    }
+    .right {
+      width: 400px;
+      .aboutTextFive {
+        margin-top: 100px;
+        padding: 1rem;
+        border: 1px solid #17a2b8;
+        border-radius: 10px;
+        &:hover {
+          background-color: var(--previewBg);
+          border: 1px solid #17a2b8;
+        }
+      }
+      .aboutTextSix {
+        margin-top: 100px;
+        padding: 1rem;
+        border: 1px solid #17a2b8;
+        border-radius: 10px;
+        &:hover {
+          background-color: var(--previewBg);
+          border: 1px solid #17a2b8;
+        }
+      }
+      .aboutTextSaven {
+        margin-top: 100px;
+        padding: 1rem;
+        border: 1px solid #17a2b8;
+        border-radius: 10px;
+        &:hover {
+          background-color: var(--previewBg);
+          border: 1px solid #17a2b8;
+        }
+      }
+      .aboutTextEight {
+        margin-top: 100px;
+        padding: 1rem;
+        border: 1px solid #17a2b8;
+        border-radius: 10px;
+        &:hover {
+          background-color: var(--previewBg);
+          border: 1px solid #17a2b8;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+    padding: 2rem 0 0 !important;
+  }
+  .container {
+    width: 90%;
+    .aboutContainer {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-left: 1px solid #17a2b8;
+
+      .left {
+        width: 95%;
+        margin: 10px auto;
+        .aboutTextOne {
+          position: relative;
+          margin-bottom: 20px !important;
+          padding: 1rem;
+          border: 1px solid #17a2b8;
+          border-radius: 10px;
+          span {
+            position: absolute;
+            top: 3px;
+            left: -11px !important;
+            transform: translate(-50%);
+            width: 7px;
+            height: 7px;
+            border: 1.5px solid #17a2b8;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+          &:hover {
+            background-color: var(--previewBg);
+            border: 1px solid #17a2b8;
+          }
+        }
+        .aboutTextTwo {
+          position: relative;
+          margin-bottom: 20px !important;
+          padding: 1rem;
+          border: 1px solid #17a2b8;
+          border-radius: 10px;
+          span {
+            position: absolute;
+            top: 3px;
+            left: -11px !important;
+            transform: translate(-50%);
+            width: 7px;
+            height: 7px;
+            border: 1.5px solid #17a2b8;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+          &:hover {
+            background-color: var(--previewBg);
+            border: 1px solid #17a2b8;
+          }
+        }
+        .aboutTextThree {
+          position: relative;
+          margin-bottom: 10px !important;
+          padding: 1rem;
+          border: 1px solid #17a2b8;
+          border-radius: 10px;
+          span {
+            position: absolute;
+            top: 3px;
+            left: -11px !important;
+            transform: translate(-50%);
+            width: 7px;
+            height: 7px;
+            border: 1.5px solid #17a2b8;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+          &:hover {
+            background-color: var(--previewBg);
+            border: 1px solid #17a2b8;
+          }
+        }
+        .aboutTextFour {
+          position: relative;
+          padding: 1rem;
+          border: 1px solid #17a2b8;
+          border-radius: 10px;
+          span {
+            position: absolute;
+            top: 3px;
+            left: -11px !important;
+            transform: translate(-50%);
+            width: 7px;
+            height: 7px;
+            border: 1.5px solid #17a2b8;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+          &:hover {
+            background-color: var(--previewBg);
+            border: 1px solid #17a2b8;
+          }
+        }
+      }
+      .line {
+        display: none;
+      }
+      .right {
+        width: 95%;
+        margin: 0 auto;
+        .aboutTextFive {
+          position: relative;
+          margin-top: 10px !important;
+          padding: 1rem;
+          border: 1px solid #17a2b8;
+          border-radius: 10px;
+          span {
+            position: absolute;
+            top: 3px;
+            left: -11px !important;
+            transform: translate(-50%);
+            width: 7px;
+            height: 7px;
+            border: 1.5px solid #17a2b8;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+          &:hover {
+            background-color: var(--previewBg);
+            border: 1px solid #17a2b8;
+          }
+        }
+        .aboutTextSix {
+          position: relative;
+          margin-top: 10px !important;
+          padding: 1rem;
+          border: 1px solid #17a2b8;
+          border-radius: 10px;
+          span {
+            position: absolute;
+            top: 3px;
+            left: -11px !important;
+            transform: translate(-50%);
+            width: 7px;
+            height: 7px;
+            border: 1.5px solid #17a2b8;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+          &:hover {
+            background-color: var(--previewBg);
+            border: 1px solid #17a2b8;
+          }
+        }
+        .aboutTextSaven {
+          position: relative;
+          margin-top: 10px !important;
+          padding: 1rem;
+          border: 1px solid #17a2b8;
+          border-radius: 10px;
+          span {
+            position: absolute;
+            top: 3px;
+            left: -11px !important;
+            transform: translate(-50%);
+            width: 7px;
+            height: 7px;
+            border: 1.5px solid #17a2b8;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+          &:hover {
+            background-color: var(--previewBg);
+            border: 1px solid #17a2b8;
+          }
+        }
+        .aboutTextEight {
+          position: relative;
+          margin-top: 10px !important;
+          padding: 1rem;
+          border: 1px solid #17a2b8;
+          border-radius: 10px;
+          span {
+            position: absolute;
+            top: 3px;
+            left: -11px !important;
+            transform: translate(-50%);
+            width: 7px;
+            height: 7px;
+            border: 1.5px solid #17a2b8;
+            background-color: #fff;
+            border-radius: 50%;
+          }
+          &:hover {
+            background-color: var(--previewBg);
+            border: 1px solid #17a2b8;
+          }
+        }
+      }
+    }
+  }
+}
