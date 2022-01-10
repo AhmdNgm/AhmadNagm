@@ -1,5 +1,7 @@
 import Layout from "../components/Layout";
 import "../styles/globals.scss";
+import React from "react";
+
 import { ThemeProvider, useTheme } from "next-themes";
 
 function MyApp({ Component, pageProps }) {

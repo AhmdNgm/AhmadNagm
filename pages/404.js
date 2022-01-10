@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import React from "react";
+
 import style from "../styles/error.module.scss";
 
 const error = () => {
