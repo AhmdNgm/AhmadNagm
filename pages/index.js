@@ -21,7 +21,7 @@ export default function Home() {
 
       <div className={styles.s1}>
         <div className={styles.mainContainer}>
-          <h1>Hi, I'm Ahmad Nagm</h1>
+          <h1>Hi, I&apos;m Ahmad Nagm</h1>
           <div className={styles.wrapper}>
             <div className={styles.mac}>
               <div className={styles.macWrap}>
@@ -37,7 +37,6 @@ export default function Home() {
                   alt="person"
                   height={400}
                   width={600}
-                  alt="person"
                   layout="responsive"
                 />
               </div>

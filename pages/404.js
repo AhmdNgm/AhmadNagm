@@ -5,11 +5,11 @@ import { useRouter } from "next/router";
 import React from "react";
 import style from "../styles/error.module.scss";
 
-const error = () => {
-  const router = useRouter();
+const Error = () => {
+  const Router = useRouter();
   useEffect(() => {
     setTimeout(() => {
-      router.push("/");
+      Router.push("/");
     }, 5000);
   }, []);
 
@@ -25,7 +25,6 @@ const error = () => {
             alt="person"
             height={400}
             width={600}
-            alt="person"
             layout="responsive"
           />
         </div>
@@ -38,4 +37,4 @@ const error = () => {
   );
 };
 
-export default error;
+export default Error;
