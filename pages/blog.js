@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
+import React from "react";
 
 import styles from "../styles/blog.module.scss";
 const blog = () => {
@@ -10,7 +11,7 @@ const blog = () => {
         <title>Blog</title>
         <meta name="description" content="My Journey" />
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
