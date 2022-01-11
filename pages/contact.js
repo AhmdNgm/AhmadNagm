@@ -1,9 +1,9 @@
-import React, { useRef } from "react";
+import { useRef as UseRef } from "react";
 import Head from "next/head";
 import emailjs from "emailjs-com";
 import styles from "../styles/contact.module.scss";
 const contact = () => {
-  const form = useRef();
+  const form = UseRef();
   function sendEmail(e) {
     e.preventDefault();
 
