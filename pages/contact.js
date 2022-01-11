@@ -1,21 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
 import Head from "next/head";
 import emailjs from "emailjs-com";
 import styles from "../styles/contact.module.scss";
 const contact = () => {
+  const form = useRef();
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm(
-      "service_ndopxou",
-      "template_1m2ltqt",
-      e.target,
-      "user_6smHvkdcG1YI59d6GpS1N"
-    );
-    window.location.reload();
-    // .then((res) => {
-    //   console.log(res);
-    // })
-    // .catch((err) => console.log(err));
+
+    emailjs
+      .sendForm(
+        "service_ndopxou",
+        "template_jse0yw7",
+        form.current,
+        "user_6smHvkdcG1YI59d6GpS1N"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
   }
   return (
     <div>
@@ -30,14 +37,14 @@ const contact = () => {
       <div className={styles.container}>
         <h1 className={styles.title}>Contact</h1>
         <div className={styles.formContainer}>
-          <form onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
-            <input type="text" name="Name" />
+            <input type="text" name="name" />
             <label>Subject</label>
-            <input type="text" name="Subject" />
+            <input type="text" name="subject" />
 
             <label>Email</label>
-            <input type="email" name="Email" />
+            <input type="email" name="email" />
 
             <label>Message</label>
             <textarea name="message" />
