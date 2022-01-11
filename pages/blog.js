@@ -21,7 +21,7 @@ const blog = () => {
           <div className={styles.blogHead}>
             <div className={styles.avatar}>
               <Image
-                src="/../public/negm.jpg"
+                src="/negm.jpg"
                 className={styles.image}
                 height={10}
                 width={10}
@@ -45,7 +45,7 @@ const blog = () => {
           <div className={styles.blogHead}>
             <div className={styles.avatar}>
               <Image
-                src="/../public/negm.jpg"
+                src="/negm.jpg"
                 className={styles.image}
                 height={10}
                 width={10}
@@ -66,7 +66,7 @@ const blog = () => {
           <div className={styles.blogHead}>
             <div className={styles.avatar}>
               <Image
-                src="/../public/negm.jpg"
+                src="/negm.jpg"
                 className={styles.image}
                 height={10}
                 width={10}
@@ -90,7 +90,7 @@ const blog = () => {
           <div className={styles.blogHead}>
             <div className={styles.avatar}>
               <Image
-                src="/../public/negm.jpg"
+                src="/negm.jpg"
                 className={styles.image}
                 height={10}
                 width={10}
@@ -111,7 +111,7 @@ const blog = () => {
           <div className={styles.blogHead}>
             <div className={styles.avatar}>
               <Image
-                src="/../public/negm.jpg"
+                src="/negm.jpg"
                 className={styles.image}
                 height={10}
                 width={10}
