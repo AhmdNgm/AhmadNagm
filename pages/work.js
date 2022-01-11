@@ -21,7 +21,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/../public/pexels-pixabay-273238.jpg"
+              src="/pexels-pixabay-273238.jpg"
               className={styles.image}
               height={400}
               width={600}
@@ -41,7 +41,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/../public/pexels-pixabay-273238.jpg"
+              src="/pexels-pixabay-273238.jpg"
               className={styles.image}
               height={400}
               width={600}
@@ -61,7 +61,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/../public/pexels-pixabay-273238.jpg"
+              src="/pexels-pixabay-273238.jpg"
               className={styles.image}
               height={400}
               width={600}
@@ -81,7 +81,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/../public/pexels-pixabay-273238.jpg"
+              src="/pexels-pixabay-273238.jpg"
               className={styles.image}
               height={400}
               width={600}
@@ -101,7 +101,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/../public/pexels-pixabay-273238.jpg"
+              src="/pexels-pixabay-273238.jpg"
               className={styles.image}
               height={400}
               width={600}
@@ -121,7 +121,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/../public/pexels-pixabay-273238.jpg"
+              src="/pexels-pixabay-273238.jpg"
               className={styles.image}
               height={400}
               width={600}
@@ -141,7 +141,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/../public/pexels-pixabay-273238.jpg"
+              src="/pexels-pixabay-273238.jpg"
               className={styles.image}
               height={400}
               width={600}
@@ -161,7 +161,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/../public/pexels-pixabay-273238.jpg"
+              src="/pexels-pixabay-273238.jpg"
               className={styles.image}
               height={400}
               width={600}
@@ -181,7 +181,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/../public/pexels-pixabay-273238.jpg"
+              src="/pexels-pixabay-273238.jpg"
               className={styles.image}
               height={400}
               width={600}

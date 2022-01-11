@@ -2,7 +2,7 @@ import react from "react";
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../styles/Home.module.scss";
-import Layout from "../components/Layout";
+import Layout from "../Layout/Layout";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 
@@ -33,7 +33,7 @@ export default function Home() {
             <div className={styles.leftColumn}>
               <div className={styles.profilePic}>
                 <Image
-                  src="/../public/negm.jpg"
+                  src="/negm.jpg"
                   alt="person"
                   height={400}
                   width={600}
@@ -114,7 +114,7 @@ export default function Home() {
             <div className={styles.social}>
               <div className={styles.socialPic}>
                 <Image
-                  src="/../public/pexels-pixabay-273238.jpg"
+                  src="/pexels-pixabay-273238.jpg"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -147,7 +147,7 @@ export default function Home() {
             <div className={styles.card}>
               <div className={styles.cardImg}>
                 <Image
-                  src="/../public/pexels-pixabay-273238.jpg"
+                  src="/pexels-pixabay-273238.jpg"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -167,7 +167,7 @@ export default function Home() {
             <div className={styles.card}>
               <div className={styles.cardImg}>
                 <Image
-                  src="/../public/pexels-pixabay-273238.jpg"
+                  src="/pexels-pixabay-273238.jpg"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -187,7 +187,7 @@ export default function Home() {
             <div className={styles.card}>
               <div className={styles.cardImg}>
                 <Image
-                  src="/../public/pexels-pixabay-273238.jpg"
+                  src="/pexels-pixabay-273238.jpg"
                   className={styles.image}
                   height={400}
                   width={600}
