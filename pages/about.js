@@ -39,16 +39,7 @@ const about = () => {
             <span></span>
           </p>
         </div>
-        <div className={style.line}>
-          <div className={style.dotOne}></div>
-          <div className={style.dotTwo}></div>
-          <div className={style.dotThree}></div>
-          <div className={style.dotFour}></div>
-          <div className={style.dotFive}></div>
-          <div className={style.dotSix}></div>
-          <div className={style.dotSaven}></div>
-          <div className={style.dotEight}></div>
-        </div>
+
         <div className={style.right}>
           <p className={style.aboutTextFive}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ipsa

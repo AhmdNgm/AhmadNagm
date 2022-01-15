@@ -31,7 +31,7 @@
         border: 1px solid var(--borderColor);
         font-size: 14px;
         &:focus {
-          outline: 1px solid #17a2b8;
+          outline: 1px solid var(--linkColor);
         }
       }
       textarea {
@@ -42,7 +42,7 @@
         border: 1px solid var(--borderColor);
         font-size: 14px;
         &:focus {
-          outline: 1px solid #17a2b8;
+          outline: 1px solid var(--linkColor);
         }
         min-height: 100px;
       }
@@ -56,7 +56,7 @@
         border: none;
         cursor: pointer;
         &:hover {
-          background-color: #1bbad3;
+          background-color: var(--linkColor);
         }
       }
     }

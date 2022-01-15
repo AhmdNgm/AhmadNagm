@@ -13,185 +13,327 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    // .left {
+    //   width: 400px;
+    //   .aboutTextOne {
+    //     margin-bottom: 100px;
+    //     padding: 1rem;
+    //     border: 1px solid var(--linkColor);
+    //     border-radius: 10px;
+    //     &:hover {
+    //       background-color: var(--previewBg);
+    //       border: 1px solid var(--linkColor);
+    //     }
+    //   }
+    //   .aboutTextTwo {
+    //     margin-bottom: 100px;
+    //     padding: 1rem;
+    //     border: 1px solid var(--linkColor);
+    //     border-radius: 10px;
+    //     &:hover {
+    //       background-color: var(--previewBg);
+    //       border: 1px solid var(--linkColor);
+    //     }
+    //   }
+    //   .aboutTextThree {
+    //     margin-bottom: 100px;
+    //     padding: 1rem;
+    //     border: 1px solid var(--linkColor);
+    //     border-radius: 10px;
+    //     &:hover {
+    //       background-color: var(--previewBg);
+    //       border: 1px solid var(--linkColor);
+    //     }
+    //   }
+    //   .aboutTextFour {
+    //     padding: 1rem;
+    //     border: 1px solid var(--linkColor);
+    //     border-radius: 10px;
+    //     &:hover {
+    //       background-color: var(--previewBg);
+    //       border: 1px solid var(--linkColor);
+    //     }
+    //   }
+    // }
     .left {
       width: 400px;
+      border-right: 1px solid var(--linkColor);
+      padding-right: 15px;
+      padding-bottom: 100px;
       .aboutTextOne {
+        position: relative;
         margin-bottom: 100px;
         padding: 1rem;
-        border: 1px solid #17a2b8;
+        border: 1px solid var(--linkColor);
         border-radius: 10px;
+        span {
+          position: absolute;
+          top: 3px;
+          right: -27px !important;
+          transform: translate(-50%);
+          width: 10px;
+          height: 10px;
+          border: 2px solid var(--linkColor);
+          background-color: #fff;
+          border-radius: 50%;
+        }
         &:hover {
           background-color: var(--previewBg);
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
         }
       }
       .aboutTextTwo {
+        position: relative;
         margin-bottom: 100px;
         padding: 1rem;
-        border: 1px solid #17a2b8;
+        border: 1px solid var(--linkColor);
         border-radius: 10px;
+        span {
+          position: absolute;
+          top: 3px;
+          right: -27px !important;
+          transform: translate(-50%);
+          width: 10px;
+          height: 10px;
+          border: 2px solid var(--linkColor);
+          background-color: #fff;
+          border-radius: 50%;
+        }
         &:hover {
           background-color: var(--previewBg);
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
         }
       }
       .aboutTextThree {
+        position: relative;
         margin-bottom: 100px;
         padding: 1rem;
-        border: 1px solid #17a2b8;
+        border: 1px solid var(--linkColor);
         border-radius: 10px;
+        span {
+          position: absolute;
+          top: 3px;
+          right: -27px !important;
+          transform: translate(-50%);
+          width: 10px;
+          height: 10px;
+          border: 2px solid var(--linkColor);
+          background-color: #fff;
+          border-radius: 50%;
+        }
         &:hover {
           background-color: var(--previewBg);
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
         }
       }
       .aboutTextFour {
+        position: relative;
         padding: 1rem;
-        border: 1px solid #17a2b8;
+        border: 1px solid var(--linkColor);
         border-radius: 10px;
+        span {
+          position: absolute;
+          top: 3px;
+          right: -27px !important;
+          transform: translate(-50%);
+          width: 10px;
+          height: 10px;
+          border: 2px solid var(--linkColor);
+          background-color: #fff;
+          border-radius: 50%;
+        }
         &:hover {
           background-color: var(--previewBg);
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
         }
       }
     }
-    .line {
-      position: relative;
-      width: 1px;
-      min-height: auto;
-      height: 900px;
-      background-color: #17a2b8;
-      margin-right: 20px;
-      margin-left: 20px;
-      .dotOne {
-        position: absolute;
-        top: 0px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 7px;
-        height: 7px;
-        border: 1.5px solid #17a2b8;
-        background-color: #fff;
-        border-radius: 50%;
-      }
-      .dotTwo {
-        position: absolute;
-        top: 100px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 7px;
-        height: 7px;
-        border: 1.5px solid #17a2b8;
-        background-color: #fff;
-        border-radius: 50%;
-      }
-      .dotThree {
-        position: absolute;
-        top: 200px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 7px;
-        height: 7px;
-        border: 1.5px solid #17a2b8;
-        background-color: #fff;
-        border-radius: 50%;
-      }
-      .dotFour {
-        position: absolute;
-        top: 300px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 7px;
-        height: 7px;
-        border: 1.5px solid #17a2b8;
-        background-color: #fff;
-        border-radius: 50%;
-      }
-      .dotFive {
-        position: absolute;
-        top: 400px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 7px;
-        height: 7px;
-        border: 1.5px solid #17a2b8;
-        background-color: #fff;
-        border-radius: 50%;
-      }
-      .dotSix {
-        position: absolute;
-        top: 500px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 7px;
-        height: 7px;
-        border: 1.5px solid #17a2b8;
-        background-color: #fff;
-        border-radius: 50%;
-      }
-      .dotSaven {
-        position: absolute;
-        top: 600px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 7px;
-        height: 7px;
-        border: 1.5px solid #17a2b8;
-        background-color: #fff;
-        border-radius: 50%;
-      }
-      .dotEight {
-        position: absolute;
-        top: 700px;
-        left: 50%;
-        transform: translate(-50%);
-        width: 7px;
-        height: 7px;
-        border: 1.5px solid #17a2b8;
-        background-color: #fff;
-        border-radius: 50%;
-      }
-    }
+    // .line {
+    //   position: relative;
+    //   width: 1px;
+    //   min-height: auto;
+    //   height: 900px;
+    //   background-color: var(--linkColor);
+    //   margin-right: 20px;
+    //   margin-left: 20px;
+    //   .dotOne {
+    //     position: absolute;
+    //     top: 0px;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    //     width: 7px;
+    //     height: 7px;
+    //     border: 1.5px solid var(--linkColor);
+    //     background-color: #fff;
+    //     border-radius: 50%;
+    //   }
+    //   .dotTwo {
+    //     position: absolute;
+    //     top: 100px;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    //     width: 7px;
+    //     height: 7px;
+    //     border: 1.5px solid var(--linkColor);
+    //     background-color: #fff;
+    //     border-radius: 50%;
+    //   }
+    //   .dotThree {
+    //     position: absolute;
+    //     top: 200px;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    //     width: 7px;
+    //     height: 7px;
+    //     border: 1.5px solid var(--linkColor);
+    //     background-color: #fff;
+    //     border-radius: 50%;
+    //   }
+    //   .dotFour {
+    //     position: absolute;
+    //     top: 300px;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    //     width: 7px;
+    //     height: 7px;
+    //     border: 1.5px solid var(--linkColor);
+    //     background-color: #fff;
+    //     border-radius: 50%;
+    //   }
+    //   .dotFive {
+    //     position: absolute;
+    //     top: 400px;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    //     width: 7px;
+    //     height: 7px;
+    //     border: 1.5px solid var(--linkColor);
+    //     background-color: #fff;
+    //     border-radius: 50%;
+    //   }
+    //   .dotSix {
+    //     position: absolute;
+    //     top: 500px;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    //     width: 7px;
+    //     height: 7px;
+    //     border: 1.5px solid var(--linkColor);
+    //     background-color: #fff;
+    //     border-radius: 50%;
+    //   }
+    //   .dotSaven {
+    //     position: absolute;
+    //     top: 600px;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    //     width: 7px;
+    //     height: 7px;
+    //     border: 1.5px solid var(--linkColor);
+    //     background-color: #fff;
+    //     border-radius: 50%;
+    //   }
+    //   .dotEight {
+    //     position: absolute;
+    //     top: 700px;
+    //     left: 50%;
+    //     transform: translate(-50%);
+    //     width: 7px;
+    //     height: 7px;
+    //     border: 1.5px solid var(--linkColor);
+    //     background-color: #fff;
+    //     border-radius: 50%;
+    //   }
+    // }
     .right {
       width: 400px;
+      padding-left: 15px;
       .aboutTextFive {
+        position: relative;
         margin-top: 100px;
         padding: 1rem;
-        border: 1px solid #17a2b8;
+        border: 1px solid var(--linkColor);
         border-radius: 10px;
+        span {
+          position: absolute;
+          top: 3px;
+          left: -15px !important;
+          transform: translate(-50%);
+          width: 10px;
+          height: 10px;
+          border: 2px solid var(--linkColor);
+          background-color: #fff;
+          border-radius: 50%;
+        }
         &:hover {
           background-color: var(--previewBg);
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
         }
       }
       .aboutTextSix {
+        position: relative;
         margin-top: 100px;
         padding: 1rem;
-        border: 1px solid #17a2b8;
+        border: 1px solid var(--linkColor);
         border-radius: 10px;
+        span {
+          position: absolute;
+          top: 3px;
+          left: -15px !important;
+          transform: translate(-50%);
+          width: 10px;
+          height: 10px;
+          border: 2px solid var(--linkColor);
+          background-color: #fff;
+          border-radius: 50%;
+        }
         &:hover {
           background-color: var(--previewBg);
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
         }
       }
       .aboutTextSaven {
+        position: relative;
         margin-top: 100px;
         padding: 1rem;
-        border: 1px solid #17a2b8;
+        border: 1px solid var(--linkColor);
         border-radius: 10px;
+        span {
+          position: absolute;
+          top: 3px;
+          left: -15px !important;
+          transform: translate(-50%);
+          width: 10px;
+          height: 10px;
+          border: 2px solid var(--linkColor);
+          background-color: #fff;
+          border-radius: 50%;
+        }
         &:hover {
           background-color: var(--previewBg);
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
         }
       }
       .aboutTextEight {
+        position: relative;
         margin-top: 100px;
         padding: 1rem;
-        border: 1px solid #17a2b8;
+        border: 1px solid var(--linkColor);
         border-radius: 10px;
+        span {
+          position: absolute;
+          top: 3px;
+          left: -15px !important;
+          transform: translate(-50%);
+          width: 10px;
+          height: 10px;
+          border: 2px solid var(--linkColor);
+          background-color: #fff;
+          border-radius: 50%;
+        }
         &:hover {
           background-color: var(--previewBg);
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
         }
       }
     }
@@ -219,16 +361,18 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border-left: 1px solid #17a2b8;
+      border-left: 1px solid var(--linkColor);
 
       .left {
         width: 95%;
         margin: 10px auto;
+        padding: 0;
+        border: none;
         .aboutTextOne {
           position: relative;
           margin-bottom: 20px !important;
           padding: 1rem;
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
           border-radius: 10px;
           span {
             position: absolute;
@@ -237,20 +381,20 @@
             transform: translate(-50%);
             width: 7px;
             height: 7px;
-            border: 1.5px solid #17a2b8;
+            border: 1.5px solid var(--linkColor);
             background-color: #fff;
             border-radius: 50%;
           }
           &:hover {
             background-color: var(--previewBg);
-            border: 1px solid #17a2b8;
+            border: 1px solid var(--linkColor);
           }
         }
         .aboutTextTwo {
           position: relative;
           margin-bottom: 20px !important;
           padding: 1rem;
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
           border-radius: 10px;
           span {
             position: absolute;
@@ -259,20 +403,20 @@
             transform: translate(-50%);
             width: 7px;
             height: 7px;
-            border: 1.5px solid #17a2b8;
+            border: 1.5px solid var(--linkColor);
             background-color: #fff;
             border-radius: 50%;
           }
           &:hover {
             background-color: var(--previewBg);
-            border: 1px solid #17a2b8;
+            border: 1px solid var(--linkColor);
           }
         }
         .aboutTextThree {
           position: relative;
           margin-bottom: 10px !important;
           padding: 1rem;
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
           border-radius: 10px;
           span {
             position: absolute;
@@ -281,19 +425,19 @@
             transform: translate(-50%);
             width: 7px;
             height: 7px;
-            border: 1.5px solid #17a2b8;
+            border: 1.5px solid var(--linkColor);
             background-color: #fff;
             border-radius: 50%;
           }
           &:hover {
             background-color: var(--previewBg);
-            border: 1px solid #17a2b8;
+            border: 1px solid var(--linkColor);
           }
         }
         .aboutTextFour {
           position: relative;
           padding: 1rem;
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
           border-radius: 10px;
           span {
             position: absolute;
@@ -302,49 +446,48 @@
             transform: translate(-50%);
             width: 7px;
             height: 7px;
-            border: 1.5px solid #17a2b8;
+            border: 1.5px solid var(--linkColor);
             background-color: #fff;
             border-radius: 50%;
           }
           &:hover {
             background-color: var(--previewBg);
-            border: 1px solid #17a2b8;
+            border: 1px solid var(--linkColor);
           }
         }
       }
-      .line {
-        display: none;
-      }
+
       .right {
         width: 95%;
         margin: 0 auto;
+        padding: 0;
         .aboutTextFive {
           position: relative;
           margin-top: 10px !important;
           padding: 1rem;
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
           border-radius: 10px;
           span {
             position: absolute;
             top: 3px;
-            left: -11px !important;
+            left: -15px !important;
             transform: translate(-50%);
-            width: 7px;
-            height: 7px;
-            border: 1.5px solid #17a2b8;
+            width: 10px;
+            height: 10px;
+            border: 2px solid var(--linkColor);
             background-color: #fff;
             border-radius: 50%;
           }
           &:hover {
             background-color: var(--previewBg);
-            border: 1px solid #17a2b8;
+            border: 1px solid var(--linkColor);
           }
         }
         .aboutTextSix {
           position: relative;
           margin-top: 10px !important;
           padding: 1rem;
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
           border-radius: 10px;
           span {
             position: absolute;
@@ -353,20 +496,20 @@
             transform: translate(-50%);
             width: 7px;
             height: 7px;
-            border: 1.5px solid #17a2b8;
+            border: 1.5px solid var(--linkColor);
             background-color: #fff;
             border-radius: 50%;
           }
           &:hover {
             background-color: var(--previewBg);
-            border: 1px solid #17a2b8;
+            border: 1px solid var(--linkColor);
           }
         }
         .aboutTextSaven {
           position: relative;
           margin-top: 10px !important;
           padding: 1rem;
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
           border-radius: 10px;
           span {
             position: absolute;
@@ -375,20 +518,20 @@
             transform: translate(-50%);
             width: 7px;
             height: 7px;
-            border: 1.5px solid #17a2b8;
+            border: 1.5px solid var(--linkColor);
             background-color: #fff;
             border-radius: 50%;
           }
           &:hover {
             background-color: var(--previewBg);
-            border: 1px solid #17a2b8;
+            border: 1px solid var(--linkColor);
           }
         }
         .aboutTextEight {
           position: relative;
           margin-top: 10px !important;
           padding: 1rem;
-          border: 1px solid #17a2b8;
+          border: 1px solid var(--linkColor);
           border-radius: 10px;
           span {
             position: absolute;
@@ -397,13 +540,13 @@
             transform: translate(-50%);
             width: 7px;
             height: 7px;
-            border: 1.5px solid #17a2b8;
+            border: 1.5px solid var(--linkColor);
             background-color: #fff;
             border-radius: 50%;
           }
           &:hover {
             background-color: var(--previewBg);
-            border: 1px solid #17a2b8;
+            border: 1px solid var(--linkColor);
           }
         }
       }

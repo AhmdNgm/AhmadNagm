@@ -5,7 +5,38 @@ import styles from "../styles/Home.module.scss";
 import Layout from "../Layout/Layout";
 import { useTheme } from "next-themes";
 import Image from "next/image";
-
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faCode,
+  fasLabtopCode,
+  faLaptopCode,
+  faBlog,
+  faPen,
+  faEnvelope,
+  faAngleDoubleDown,
+  faScrewdriver,
+  faPaintBrush,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faBehance,
+  faBootstrap,
+  faContao,
+  faCss3,
+  faFacebook,
+  faFacebookMessenger,
+  faFigma,
+  faHtml5,
+  faInstagram,
+  faJs,
+  faJsSquare,
+  faLinkedin,
+  faSass,
+  faTwitter,
+  faWpforms,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 export default function Home() {
   const { theme, setTheme } = useTheme();
   return (
@@ -85,7 +116,7 @@ export default function Home() {
         <div className={styles.mainContainer}>
           <div className={styles.aboutWrapper}>
             <div className={styles.aboutMe}>
-              <h4>About Me</h4>
+              <h4>ABOUT ME</h4>
               <p>I build new projects just to tickle my brain</p>
               <hr />
               <h4>TOP EXPERTICE </h4>
@@ -97,16 +128,56 @@ export default function Home() {
               </p>
               <div className={styles.skills}>
                 <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>JavaScript</li>
-                  <li>Jquery</li>
+                  <li>
+                    <span>
+                      <FontAwesomeIcon icon={faHtml5} />
+                    </span>
+                    HTML5
+                  </li>
+                  <li>
+                    <span>
+                      <FontAwesomeIcon icon={faCss3} />
+                    </span>
+                    CSS3
+                  </li>
+                  <li>
+                    <span>
+                      <FontAwesomeIcon icon={faJs} />
+                    </span>
+                    JavaScript
+                  </li>
+                  <li>
+                    <span>
+                      <FontAwesomeIcon icon={faJsSquare} />
+                    </span>
+                    Jquery
+                  </li>
                 </ul>
                 <ul>
-                  <li>Bootstrap5</li>
-                  <li>Sass</li>
-                  <li>AdobeXD</li>
-                  <li>Figma</li>
+                  <li>
+                    <span>
+                      <FontAwesomeIcon icon={faBootstrap} />
+                    </span>
+                    Bootstrap5
+                  </li>
+                  <li>
+                    <span>
+                      <FontAwesomeIcon icon={faSass} />
+                    </span>
+                    Sass
+                  </li>
+                  <li>
+                    <span>
+                      <FontAwesomeIcon icon={faPaintBrush} />
+                    </span>
+                    AdobeXD
+                  </li>
+                  <li>
+                    <span>
+                      <FontAwesomeIcon icon={faFigma} />
+                    </span>
+                    Figma
+                  </li>
                 </ul>
               </div>
             </div>
@@ -124,17 +195,41 @@ export default function Home() {
               </div>
               <h3>Find Me On</h3>
               <div className={styles.socialLinks}>
-                <a href="#">Facebook</a>
-                <p>|</p>
-                <a href="#">twitter</a>
-                <p>|</p>
-                <a href="#">instagram</a>
-                <p>|</p>
-                <a href="#">linkedin</a>
-                <p>|</p>
-                <a href="#">behance</a>
-                <p>|</p>
-                <a href="#">Youtube</a>
+                <a href="#">
+                  <span>
+                    <FontAwesomeIcon icon={faFacebook} />
+                  </span>
+                </a>
+
+                <a href="#">
+                  <span>
+                    <FontAwesomeIcon icon={faInstagram} />
+                  </span>
+                </a>
+
+                <a href="#">
+                  <span>
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </span>
+                </a>
+
+                <a href="#">
+                  <span>
+                    <FontAwesomeIcon icon={faLinkedin} />
+                  </span>
+                </a>
+
+                <a href="#">
+                  <span>
+                    <FontAwesomeIcon icon={faBehance} />
+                  </span>
+                </a>
+
+                <a href="#">
+                  <span>
+                    <FontAwesomeIcon icon={faYoutube} />
+                  </span>
+                </a>
               </div>
             </div>
           </div>

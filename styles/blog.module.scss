@@ -14,7 +14,7 @@
     padding-bottom: 40px;
     margin-bottom: 40px;
     .blogContent {
-      border: 1px solid #17a2b8;
+      border: 1px solid var(--linkColor);
       border-radius: 5px;
       padding: 1rem;
       .blogHead {
@@ -43,7 +43,7 @@
       }
       &:hover {
         background-color: var(--previewBg);
-        border: 1px solid #17a2b8;
+        border: 1px solid var(--linkColor);
       }
     }
   }

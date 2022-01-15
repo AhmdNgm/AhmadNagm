@@ -5,7 +5,7 @@
   --secondaryColor: #192734;
 
   --borderColor: #164d56;
-
+  --linkColor: #17a2b8;
   --mainText: #fff;
   --secondaryText: #eee;
 
@@ -15,8 +15,9 @@
   --buttonColor: #17a2b8;
 }
 [data-theme="light"] {
-  --mainColor: #eaeaea;
+  --mainColor: #f3f4f6;
   --secondaryColor: #fff;
+  --linkColor: #d61e28;
 
   --borderColor: #c1c1c1;
 
@@ -24,8 +25,8 @@
   --secondaryText: #4b5156;
 
   --themeDotborder: #24292e;
-  --previewBg: rgba(251, 249, 243, 0.8);
-  --previewShadow: #f0ead6;
+  --previewBg: rgba(228, 228, 228, 0.692);
+  --previewShadow: #e3e5e7;
   --buttonColor: #000;
 }
 [data-theme="purple"] {
@@ -33,6 +34,7 @@
   --secondaryColor: #382a3f;
 
   --borderColor: #1d1520;
+  --linkColor: #ba95cf;
 
   --mainText: #fff;
   --secondaryText: #eee;
@@ -43,18 +45,18 @@
   --buttonColor: #8534a3;
 }
 [data-theme="green"] {
-  --mainColor: #606b56;
-  --secondaryColor: #515a48;
+  --mainColor: #1a1a1a;
+  --secondaryColor: #262625;
 
-  --borderColor: #161914;
+  --borderColor: #33be9262;
 
   --mainText: #fff;
   --secondaryText: #eee;
-
+  --linkColor: #33be91;
   --themeDotborder: #fff;
-  --previewBg: rgba(81, 90, 72, 0.8);
-  --previewShadow: #2a2f25;
-  --buttonColor: #669966;
+  --previewBg: rgba(38, 38, 37, 0.8);
+  --previewShadow: #1a1a1a;
+  --buttonColor: #199c73;
 }
 html,
 body,
@@ -117,7 +119,7 @@ textarea {
 }
 a {
   text-decoration: none;
-  color: #17a2b8;
+  color: var(--linkColor);
 
   &:hover {
     color: #6a5bcd;
@@ -132,8 +134,8 @@ main {
   min-height: calc(100vh - 165px);
 }
 .navActive {
-  color: #17a2b8;
-  border: 1px solid #17a2b8;
+  color: var(--linkColor);
+  border: 1px solid var(--linkColor);
   &:hover {
     color: var(--mainText);
     border: 1px solid var(--mainText);
@@ -164,8 +166,8 @@ nav {
         padding: 10px;
         border-radius: 2px;
         &:hover {
-          color: #17a2b8;
-          border: 1px solid #17a2b8;
+          color: var(--linkColor);
+          border: 1px solid var(--linkColor);
         }
       }
     }
@@ -173,6 +175,7 @@ nav {
 }
 .navFixed {
   position: fixed;
+  background-color: var(--secondaryColor);
   border-bottom: 1px solid var(--borderColor);
   height: 10vh;
   z-index: 99999;
@@ -212,8 +215,8 @@ footer {
           padding: 10px;
           border-radius: 2px;
           &:hover {
-            color: #17a2b8;
-            border: 1px solid #17a2b8;
+            color: var(--linkColor);
+            border: 1px solid var(--linkColor);
           }
         }
       }
@@ -268,7 +271,7 @@ footer {
     }
   }
   .mobActive {
-    color: #17a2b8 !important;
+    color: var(--linkColor) !important;
     &:hover {
       color: var(--mainText) !important;
     }

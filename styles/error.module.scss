@@ -12,7 +12,7 @@
     span {
       font-family: "Russo One", sans-serif;
 
-      color: #17a2b8;
+      color: var(--linkColor);
     }
   }
   .errorImg {
@@ -40,8 +40,8 @@
     padding: 10px;
     border-radius: 2px;
     &:hover {
-      color: #17a2b8;
-      border: 1px solid #17a2b8;
+      color: var(--linkColor);
+      border: 1px solid var(--linkColor);
     }
   }
 }
@@ -61,7 +61,7 @@
       span {
         font-family: "Russo One", sans-serif;
 
-        color: #17a2b8;
+        color: var(--linkColor);
       }
     }
     .errorImg {
@@ -82,8 +82,8 @@
       padding: 10px;
       border-radius: 2px;
       &:hover {
-        color: #17a2b8;
-        border: 1px solid #17a2b8;
+        color: var(--linkColor);
+        border: 1px solid var(--linkColor);
       }
     }
   }
@@ -105,7 +105,7 @@
       span {
         font-family: "Russo One", sans-serif;
 
-        color: #17a2b8;
+        color: var(--linkColor);
       }
     }
     .errorImg {
@@ -126,8 +126,8 @@
       padding: 10px;
       border-radius: 2px;
       &:hover {
-        color: #17a2b8;
-        border: 1px solid #17a2b8;
+        color: var(--linkColor);
+        border: 1px solid var(--linkColor);
       }
     }
   }
