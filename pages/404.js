@@ -21,7 +21,7 @@ const Error = () => {
         </h1>
         <div className={style.errorImg}>
           <Image
-            src="/../public/page-not-found.svg"
+            src="/public/page-not-found.svg"
             alt="person"
             height={400}
             width={600}
