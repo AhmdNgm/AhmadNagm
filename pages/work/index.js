@@ -17,7 +17,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/1.png"
+              src="/3.png"
               className={styles.image}
               height={400}
               width={600}
@@ -34,7 +34,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/2.png"
+              src="/1.png"
               className={styles.image}
               height={400}
               width={600}
@@ -51,7 +51,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/3.png"
+              src="/2.png"
               className={styles.image}
               height={400}
               width={600}
@@ -102,7 +102,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/6.png"
+              src="/11.png"
               className={styles.image}
               height={400}
               width={600}
@@ -119,7 +119,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/7.png"
+              src="/6.png"
               className={styles.image}
               height={400}
               width={600}
@@ -136,7 +136,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/8.png"
+              src="/7.png"
               className={styles.image}
               height={400}
               width={600}
@@ -153,7 +153,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/9.png"
+              src="/10.png"
               className={styles.image}
               height={400}
               width={600}
@@ -170,7 +170,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/10.png"
+              src="/9.png"
               className={styles.image}
               height={400}
               width={600}
@@ -187,7 +187,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/11.png"
+              src="/8.png"
               className={styles.image}
               height={400}
               width={600}
