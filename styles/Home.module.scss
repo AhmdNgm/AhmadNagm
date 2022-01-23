@@ -173,6 +173,9 @@
           border: 1.5px solid var(--linkColor);
           background-color: var(--previewBg);
           padding: 15px;
+          &:hover {
+            transform: rotate(2deg);
+          }
           h3 {
             padding: 0;
             margin-bottom: 0.25rem;
@@ -727,8 +730,8 @@
       margin: 0 auto;
       h1 {
         text-align: center;
-        padding: 1rem;
-        font-size: 30px;
+        font-size: 2rem !important;
+        padding: 2rem 0;
       }
       .wrapper {
         margin-bottom: 3rem;
@@ -867,6 +870,10 @@
           p {
             font-style: italic;
             text-align: center;
+            padding-top: 0.5rem;
+            padding-bottom: 0;
+            padding-left: 0.25rem;
+            padding-right: 0.25rem;
           }
         }
         .rightColumn {

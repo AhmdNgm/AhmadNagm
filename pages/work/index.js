@@ -17,7 +17,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/pro1.png"
+              src="/1.png"
               className={styles.image}
               height={400}
               width={600}
@@ -34,7 +34,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/gaming.png"
+              src="/2.png"
               className={styles.image}
               height={400}
               width={600}
@@ -45,13 +45,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Game Website Layout</h4>
             <p>Game website design with dark colors...</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/landingcompany.png"
+              src="/3.png"
               className={styles.image}
               height={400}
               width={600}
@@ -62,13 +62,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Landing Page</h4>
             <p>Awesome Landing Page Design for a Company website...</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/pro2.png"
+              src="/4.png"
               className={styles.image}
               height={400}
               width={600}
@@ -79,13 +79,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Dashboard Design page</h4>
             <p>Simple Dashboard Design Page for Admin Page etc...</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/Screenshot 2022-01-23 at 03-19-59 Project.png"
+              src="/5.png"
               className={styles.image}
               height={400}
               width={600}
@@ -96,13 +96,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Profile Page</h4>
             <p>Simple Profile Page Design With a lot of options...</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/Screenshot 2022-01-23 at 03-24-52 Ahmed Negm.png"
+              src="/6.png"
               className={styles.image}
               height={400}
               width={600}
@@ -113,13 +113,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Landing Page</h4>
             <p>Cool design for landing page for personal Portfolio..</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/Screenshot 2022-01-23 at 03-32-23 Home.png"
+              src="/7.png"
               className={styles.image}
               height={400}
               width={600}
@@ -130,13 +130,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Invoices System</h4>
             <p>Invoices System Cool Design with simple control..</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/Screenshot 2022-01-23 at 03-33-47 Hulk Gym.png"
+              src="/8.png"
               className={styles.image}
               height={400}
               width={600}
@@ -147,13 +147,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Landing Page</h4>
             <p>Cool Design For Landing page for Gym website...</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/Screenshot 2022-01-23 at 03-59-19 Landing Page.png"
+              src="/9.png"
               className={styles.image}
               height={400}
               width={600}
@@ -164,13 +164,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Landing Page</h4>
             <p>Cool Design for Landing Page For Online Banking..</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/Screenshot 2022-01-23 at 03-55-24 Kenzy.png"
+              src="/10.png"
               className={styles.image}
               height={400}
               width={600}
@@ -181,13 +181,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Company Website</h4>
             <p>Cool Design for Landing Page For Company Website..</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/Screenshot 2022-01-23 at 03-27-45 Photographer Portfolio.png"
+              src="/11.png"
               className={styles.image}
               height={400}
               width={600}
@@ -198,13 +198,13 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Photographer Portfolio</h4>
             <p>Cool Design for Photographer Personal Portfolio..</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/Screenshot 2022-01-23 at 03-53-29 HOME.png"
+              src="/12.png"
               className={styles.image}
               height={400}
               width={600}
@@ -215,7 +215,7 @@ const work = () => {
           <div className={styles.cardBody}>
             <h4>Landing Page</h4>
             <p>Cool Design for Landing Page For Company Website..</p>
-            <Link href="/">Read more</Link>
+            <Link href="/work/1">Read more</Link>
           </div>
         </div>
       </div>

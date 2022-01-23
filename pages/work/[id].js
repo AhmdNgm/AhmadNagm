@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
-
+import Link from "next/link";
 import styles from "/styles/project.module.scss";
 
 SwiperCore.use([Navigation, Pagination]);
@@ -12,12 +12,17 @@ const Project = () => {
     <div>
       <div className={styles.container}>
         <h1>Project Details</h1>
+        <div className={styles.btncon}>
+          <Link href="/work">
+            <a className={styles.goback}>Go Back</a>
+          </Link>
+        </div>
         <div className={styles.proCon}>
           <div className={styles.imgCon}>
             <Swiper spaceBetween={10} slidesPerView={1} loop navigation>
               <SwiperSlide>
                 <Image
-                  src="/pexels-pixabay-273238.jpg"
+                  src="/1.png"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -27,7 +32,7 @@ const Project = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src="/pexels-pixabay-273238.jpg"
+                  src="/1a.png"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -37,7 +42,7 @@ const Project = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src="/pexels-pixabay-273238.jpg"
+                  src="/1b.png"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -47,7 +52,27 @@ const Project = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <Image
-                  src="/pexels-pixabay-273238.jpg"
+                  src="/1c.png"
+                  className={styles.image}
+                  height={400}
+                  width={600}
+                  alt="person"
+                  layout="responsive"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="/1d.png"
+                  className={styles.image}
+                  height={400}
+                  width={600}
+                  alt="person"
+                  layout="responsive"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="/1e.png"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -58,22 +83,25 @@ const Project = () => {
             </Swiper>
           </div>
           <ul>
+            <h4>Game Website</h4>
+            <p>Landing page for Video Games.</p>
+
+            <p>Build it Using :</p>
+
             <li>
-              <p>
-                Buld it with: HTML5uld it with: HTML5uld it with: HTML5uld it
-                with: HTML5 uld it with: HTML5 uld it with: HTML5 uld it with:
-                HTML5 uld it with: HTML5 uld it with: HTML5 uld it with: HTML5
-                uld it with: HTML5
-              </p>
+              <p>HTML5</p>
             </li>
             <li>
-              <p>HTML</p>
+              <p>SASS</p>
             </li>
             <li>
-              <p>HTML</p>
+              <p>JS</p>
             </li>
             <li>
-              <p>HTML</p>
+              <p>Bootstrap5</p>
+            </li>
+            <li>
+              <p>Owl Caroussel</p>
             </li>
           </ul>
         </div>

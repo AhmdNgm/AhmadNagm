@@ -258,7 +258,7 @@ export default function Home() {
             <div className={styles.card}>
               <div className={styles.cardImg}>
                 <Image
-                  src="/pro1.png"
+                  src="/1.png"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -275,7 +275,7 @@ export default function Home() {
             <div className={styles.card}>
               <div className={styles.cardImg}>
                 <Image
-                  src="/gaming.png"
+                  src="/2.png"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -292,7 +292,7 @@ export default function Home() {
             <div className={styles.card}>
               <div className={styles.cardImg}>
                 <Image
-                  src="/landingcompany.png"
+                  src="/3.png"
                   className={styles.image}
                   height={400}
                   width={600}

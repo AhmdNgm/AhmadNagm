@@ -235,12 +235,11 @@
 @media screen and (max-width: 600px) {
   .title {
     font-size: 2rem;
-    padding: 2rem 0 0 !important;
+    padding: 2rem 0 !important;
   }
   .container {
     width: 90%;
     .aboutContainer {
-      margin-top: 10px;
       margin-bottom: 20px;
       height: 100%;
       display: flex;
@@ -252,7 +251,7 @@
 
       .left {
         width: 95%;
-        margin: 10px auto;
+        margin: 0 auto;
         padding: 0;
         border: none;
         .aboutTextOne {
