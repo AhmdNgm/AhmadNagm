@@ -1,6 +1,5 @@
 .container {
   width: 1200px;
-  min-height: 100vh;
   margin: 0 auto;
   .title {
     text-align: center;
@@ -19,7 +18,6 @@
       padding: 15px;
       border-radius: 5px;
       background-color: var(--mainColor);
-      margin-bottom: 50px;
       label {
         line-height: 2.7em;
       }
@@ -66,5 +64,14 @@
   .container {
     width: 90%;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    .title {
+      font-size: 2rem;
+    }
   }
 }

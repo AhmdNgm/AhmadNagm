@@ -29,10 +29,6 @@ const contact = () => {
       <Head>
         <title>Contact</title>
         <meta name="description" content="Contact" />
-        <meta charset="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
         <h1 className={styles.title}>Contact</h1>

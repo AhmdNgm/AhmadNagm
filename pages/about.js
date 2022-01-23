@@ -10,10 +10,6 @@ const about = () => {
       <Head>
         <title>My Journey</title>
         <meta name="description" content="My Journey" />
-        <meta charset="UTF-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className={style.title}>My Journey</h1>
       <div className={style.aboutContainer}>

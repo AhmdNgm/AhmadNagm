@@ -75,6 +75,25 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #15202b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #17a2b8;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #13899b;
+}
 h1,
 h2,
 h3,
@@ -120,7 +139,6 @@ textarea {
 a {
   text-decoration: none;
   color: var(--linkColor);
-
   &:hover {
     color: #6a5bcd;
     transition: all 0.1s ease-in-out;
@@ -131,7 +149,7 @@ ul {
   list-style: none;
 }
 main {
-  min-height: calc(100vh - 165px);
+  min-height: calc(100vh - 50px);
 }
 .navActive {
   color: var(--linkColor);
@@ -164,10 +182,11 @@ nav {
         color: var(--mainText);
         border: 1px solid var(--mainText);
         padding: 10px;
-        border-radius: 2px;
+        border-radius: 10px;
         &:hover {
           color: var(--linkColor);
           border: 1px solid var(--linkColor);
+          border-radius: 0px;
         }
       }
     }
@@ -177,7 +196,8 @@ nav {
   position: fixed;
   background-color: var(--secondaryColor);
   border-bottom: 1px solid var(--borderColor);
-  height: 10vh;
+  height: fit-content;
+  padding: 0.25rem 0;
   z-index: 99999;
   transition: all 0.4s ease-in-out;
 }
@@ -224,6 +244,9 @@ footer {
   }
 }
 @media screen and (max-width: 800px) {
+  body {
+    margin-bottom: 70px;
+  }
   nav {
     display: none;
   }
@@ -275,5 +298,8 @@ footer {
     &:hover {
       color: var(--mainText) !important;
     }
+  }
+  main {
+    min-height: 100vh;
   }
 }

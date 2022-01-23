@@ -1,21 +1,14 @@
 import React from "react";
 import Link from "next/link";
-import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
   faCode,
-  fasLabtopCode,
   faLaptopCode,
-  faBlog,
   faPen,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faContao,
-  faFacebookMessenger,
-  faWpforms,
-} from "@fortawesome/free-brands-svg-icons";
+
 import { useRouter } from "next/router";
 import react, { useState, useEffect } from "react";
 const NavBar = () => {
