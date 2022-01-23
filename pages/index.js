@@ -211,37 +211,37 @@ export default function Home() {
               </div>
               <h3>Find Me On</h3>
               <div className={styles.socialLinks}>
-                <a href="#">
+                <a href="https://www.facebook.com/ahmad.magdy.129/">
                   <h4>
                     <FontAwesomeIcon icon={faFacebook} />
                   </h4>
                 </a>
 
-                <a href="#">
+                <a href="https://www.instagram.com/ahmed_magdy_negm/">
                   <h4>
                     <FontAwesomeIcon icon={faInstagram} />
                   </h4>
                 </a>
 
-                <a href="#">
+                <a href="https://twitter.com/DevAhmdNagm">
                   <h4>
                     <FontAwesomeIcon icon={faTwitter} />
                   </h4>
                 </a>
 
-                <a href="#">
+                <a href="https://www.linkedin.com/in/ahmad-negm/">
                   <h4>
                     <FontAwesomeIcon icon={faLinkedin} />
                   </h4>
                 </a>
 
-                <a href="#">
+                <a href="https://www.behance.net/ahmadnegm2000">
                   <h4>
                     <FontAwesomeIcon icon={faBehance} />
                   </h4>
                 </a>
 
-                <a href="#">
+                <a href="https://www.youtube.com/channel/UCGjOEhwmaJsha-cVvLVTXbA">
                   <h4>
                     <FontAwesomeIcon icon={faYoutube} />
                   </h4>
@@ -269,7 +269,7 @@ export default function Home() {
               <div className={styles.cardBody}>
                 <h4>Chat Website</h4>
                 <p>Awesome Simple Design for chat website....</p>
-                <Link href="/">Read more</Link>
+                <Link href="/work/1">Read more</Link>
               </div>
             </div>
             <div className={styles.card}>
@@ -286,7 +286,7 @@ export default function Home() {
               <div className={styles.cardBody}>
                 <h4>Game Website Layout</h4>
                 <p>Game website design with dark colors...</p>
-                <Link href="/">Read more</Link>
+                <Link href="/work/1">Read more</Link>
               </div>
             </div>
             <div className={styles.card}>
@@ -303,7 +303,7 @@ export default function Home() {
               <div className={styles.cardBody}>
                 <h4>Landing Page</h4>
                 <p>Awesome Landing Page Design for a Company website...</p>
-                <Link href="/">Read more</Link>
+                <Link href="/work/1">Read more</Link>
               </div>
             </div>
           </div>
