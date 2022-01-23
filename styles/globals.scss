@@ -153,7 +153,7 @@ main {
 }
 .navActive {
   color: var(--linkColor);
-  border: 1px solid var(--linkColor);
+  border: 1px solid var(--borderColor);
   &:hover {
     color: var(--mainText);
     border: 1px solid var(--mainText);
@@ -183,7 +183,7 @@ nav {
         font-family: "Russo One", sans-serif;
         font-weight: 500;
         color: var(--mainText);
-        border: 1px solid var(--mainText);
+        border: 1px solid var(--borderColor);
         padding: 10px;
         border-radius: 10px;
         &:hover {

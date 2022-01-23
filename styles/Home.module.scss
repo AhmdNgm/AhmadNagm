@@ -67,16 +67,19 @@
         padding: 50px 0 50px 0;
         .profilePic {
           display: block;
-          width: 100%;
+          width: 80%;
           height: fit-content;
           margin: 0 auto;
+          margin-bottom: 0.5rem;
           padding: 0 2rem;
           overflow: hidden;
-
+          border-radius: 50%;
           img {
+            border-radius: 50%;
             object-fit: contain;
             &:hover {
               filter: opacity(0.7);
+              transform: rotate(-5deg);
             }
           }
         }
@@ -124,7 +127,7 @@
             box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
             border: 2px solid var(--themeDotborder);
             border-radius: 50%;
-            background-color: #33be91;
+            background-color: #262625;
             cursor: pointer;
             &:hover {
               border-width: 5px;

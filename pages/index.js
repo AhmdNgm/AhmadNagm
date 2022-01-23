@@ -81,7 +81,7 @@ export default function Home() {
             <div className={styles.leftColumn}>
               <div className={styles.profilePic}>
                 <Image
-                  src="/negm.jpg"
+                  src="/negm.png"
                   alt="person"
                   height={400}
                   width={600}
@@ -279,8 +279,8 @@ export default function Home() {
                   className={styles.image}
                   height={400}
                   width={600}
-                  alt="person"
                   layout="responsive"
+                  alt="me"
                 />
               </div>
               <div className={styles.cardBody}>
