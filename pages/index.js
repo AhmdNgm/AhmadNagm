@@ -275,7 +275,7 @@ export default function Home() {
             <div className={styles.card}>
               <div className={styles.cardImg}>
                 <Image
-                  src="/one.png"
+                  src="/5.png"
                   className={styles.image}
                   height={400}
                   width={600}

@@ -22,7 +22,7 @@ const Project = () => {
             <Swiper spaceBetween={10} slidesPerView={1} loop navigation>
               <SwiperSlide>
                 <Image
-                  src="/one.png"
+                  src="/1a.png"
                   className={styles.image}
                   height={400}
                   width={600}
