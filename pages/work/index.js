@@ -34,7 +34,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/1.png"
+              src="/one.png"
               className={styles.image}
               height={400}
               width={600}
@@ -170,7 +170,7 @@ const work = () => {
         <div className={styles.card}>
           <div className={styles.cardImg}>
             <Image
-              src="/9.png"
+              src="/nine.png"
               className={styles.image}
               height={400}
               width={600}
