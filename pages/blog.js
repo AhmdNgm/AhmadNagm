@@ -32,11 +32,11 @@ const blog = () => {
             <h4>What is the most difficult Situation for me? 🙁</h4>
             <p>
               The most difficult Situation for me? is The start of every
-              project.. it's so scary for every developer to see the white page
-              and start thinking about how to start to fill this white page with
-              colors, text, and images? what should come first and what steps
-              should I take? it's so scary for every developer but there are a
-              lot of steps you can take to get over it
+              project.. it&apos;s so scary for every developer to see the white
+              page and start thinking about how to start to fill this white page
+              with colors, text, and images? what should come first and what
+              steps should I take? it&apos;s so scary for every developer but
+              there are a lot of steps you can take to get over it
             </p>
             <p className={styles.desc}>
               <span>Step One:</span> Information Gathering, <br />
@@ -101,13 +101,13 @@ const blog = () => {
           </div>
           <div className={styles.text}>
             <h4>
-              Here's my top 15 website where i can get cool free icons and no
-              Copywrite Images. &#128512;
+              Here&apos;s my top 15 website where i can get cool free icons and
+              no Copywrite Images. &#128512;
             </h4>
             <p>
               For me the first thing I should be ready for when I start any
-              project is Icons and Images so here's my top 15 website where i
-              can get cool free icons and no Copywrite Images.
+              project is Icons and Images so here&apos;s my top 15 website where
+              i can get cool free icons and no Copywrite Images.
             </p>
             <a href="http://iconmonstr.com/">iconmonstr</a> <br />
             <a href="http://www.flaticon.com/">flaticon.com</a> <br />
@@ -174,37 +174,38 @@ const blog = () => {
               skills and ability to change with the times. Stemming from this,
               when the social world shifted from a place of interpersonal
               connections to internet connections, so did the world of business.
-              There's no getting around it; our digitally-driven lifestyle has
-              given us little choice but to adapt to technology, and if you
-              haven't already, it's time to get a move on. It's a no-brainer;
-              website development is now essential to you as a business person.
-              For your business to generate more business, your voice needs to
-              be heard, your brand needs to be seen, and your goals need to be
-              reached. Website development is the key to making those things
-              happen. The same way an eye is the window to the soul, a website
-              is the window to the business, giving customers a taste of what
-              you have to offer and enticing them to delve deeper for more.
+              There&apos;s no getting around it; our digitally-driven lifestyle
+              has given us little choice but to adapt to technology, and if you
+              haven&apos;t already, it&apos;s time to get a move on. It&apos;s a
+              no-brainer; website development is now essential to you as a
+              business person. For your business to generate more business, your
+              voice needs to be heard, your brand needs to be seen, and your
+              goals need to be reached. Website development is the key to making
+              those things happen. The same way an eye is the window to the
+              soul, a website is the window to the business, giving customers a
+              taste of what you have to offer and enticing them to delve deeper
+              for more.
             </p>
             <p>
-              We are simple creatures in that we like convenience, and there's
-              nothing more convenient than accessing a whole host of information
-              by simply clicking a button, which is what millions of people do
-              when they go online every day. If your product can't be found on
-              the other side of that click, you've already lost access to those
-              millions of people, and your company effectively doesn't exist. In
-              conjunction with this, establishing a strong web presence as a
-              business while reaching millions of internet surfers who might
-              become potential clients will elevate your product to a
-              universally compatible entity, even if the service you provide is
-              physically localized to a specific place. So what kind of
-              information is valuable to showcase on your website, in order to
-              leave a maximal impact?
+              We are simple creatures in that we like convenience, and
+              there&apos;s nothing more convenient than accessing a whole host
+              of information by simply clicking a button, which is what millions
+              of people do when they go online every day. If your product
+              can&apos;t be found on the other side of that click, you&apos;ve
+              already lost access to those millions of people, and your company
+              effectively doesn&apos;t exist. In conjunction with this,
+              establishing a strong web presence as a business while reaching
+              millions of internet surfers who might become potential clients
+              will elevate your product to a universally compatible entity, even
+              if the service you provide is physically localized to a specific
+              place. So what kind of information is valuable to showcase on your
+              website, in order to leave a maximal impact?
             </p>
             <p>
               Website development is a way to make people aware of the services
               and/or products you are offering, understand why your products are
               relevant and even necessary for them to buy or use, and see which
-              of your company's qualities set it apart from competitors.
+              of your company&apos;s qualities set it apart from competitors.
               Displaying this information with high-quality images and
               thought-out presentation will have a large influence on customers,
               and it is important to strive towards making your product as
@@ -217,11 +218,11 @@ const blog = () => {
               It is viable to make a website that enables you to get in touch
               with your customers and prospects, and you can produce valuable
               content for the audience associated with the industry or business
-              you're in. Afterwards, post the content on your blog, share it on
-              social media networks and respond to customers' comments and
-              feedback promptly. This will show your clients the extent to which
-              you're concerned about their satisfaction and responsive to their
-              needs.
+              you&apos;re in. Afterwards, post the content on your blog, share
+              it on social media networks and respond to customers&apos;
+              comments and feedback promptly. This will show your clients the
+              extent to which you&apos;re concerned about their satisfaction and
+              responsive to their needs.
             </p>
             <p>
               2. Improve your connectivity. A website will facilitate things
@@ -229,7 +230,7 @@ const blog = () => {
               business. Planning to make a responsive website design for your
               site will help make it accessible to an extensive range of users
               spanning several devices, such as tablets or smartphones. This
-              will increase both your site's exposure and organic traffic.
+              will increase both your site&apos;s exposure and organic traffic.
             </p>
             <p>
               3. Prove your reliability. A website offers a straightforward
@@ -245,8 +246,8 @@ const blog = () => {
               in your business, making it easy for you to produce leads.
             </p>
             <p>
-              To sum up, it's pretty clear that website development plays a big
-              role in successful business marketing. Without it, it would be
+              To sum up, it&apos;s pretty clear that website development plays a
+              big role in successful business marketing. Without it, it would be
               very difficult to leave your mark on a global level. So make life
               easier for yourself! Start adapting, develop a website, and get
               ready to collect the benefits of your success.
@@ -272,8 +273,8 @@ const blog = () => {
             <p>
               When I start to study Web Development I struggled to find a good
               mentor to teach me the basics and make me love this career but
-              after a lot of searching, I've found my top 10 instructors and
-              I've learned from them so much.
+              after a lot of searching, I&apos;ve found my top 10 instructors
+              and I&apos;ve learned from them so much.
             </p>
             <a href="https://www.youtube.com/c/ElzeroInfo">Elzero WebSchool</a>
             <br />
