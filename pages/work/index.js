@@ -77,13 +77,13 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Chat Website</h4>
               <p>Awesome Simple Design for chat website....</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/one">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
             <div className={styles.cardImg}>
               <Image
-                src="/5.png"
+                src="/1a.png"
                 className={styles.image}
                 height={400}
                 width={600}
@@ -94,7 +94,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Game Website Layout</h4>
               <p>Game website design with dark colors...</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/two">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
@@ -111,7 +111,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Landing Page</h4>
               <p>Awesome Landing Page Design for a Company website...</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/three">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
@@ -128,7 +128,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Dashboard Design page</h4>
               <p>Simple Dashboard Design Page for Admin Page etc...</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/four">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
@@ -145,7 +145,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Profile Page</h4>
               <p>Simple Profile Page Design With a lot of options...</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/five">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
@@ -162,7 +162,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Landing Page</h4>
               <p>Cool design for landing page for personal Portfolio..</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/six">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
@@ -179,7 +179,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Invoices System</h4>
               <p>Invoices System Cool Design with simple control..</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/seven">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
@@ -196,7 +196,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Landing Page</h4>
               <p>Cool Design For Landing page for Gym website...</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/eight">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
@@ -213,13 +213,13 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Landing Page</h4>
               <p>Cool Design for Landing Page For Online Banking..</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/nine">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
             <div className={styles.cardImg}>
               <Image
-                src="/6.png"
+                src="/9f.png"
                 className={styles.image}
                 height={400}
                 width={600}
@@ -230,7 +230,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Company Website</h4>
               <p>Cool Design for Landing Page For Company Website..</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/ten">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
@@ -247,7 +247,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Photographer Portfolio</h4>
               <p>Cool Design for Photographer Personal Portfolio..</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/eleven">Read more</Link>
             </div>
           </motion.div>
           <motion.div variants={fadeInUp} className={styles.card}>
@@ -264,7 +264,7 @@ const work = () => {
             <div className={styles.cardBody}>
               <h4>Landing Page</h4>
               <p>Cool Design for Landing Page For Company Website..</p>
-              <Link href="/work/1">Read more</Link>
+              <Link href="/work/twelve">Read more</Link>
             </div>
           </motion.div>
         </motion.div>

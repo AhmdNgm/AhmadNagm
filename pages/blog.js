@@ -76,6 +76,89 @@ const blog = () => {
               <h3>Ahmad Nagm</h3>
             </div>
             <div className={styles.text}>
+              <h4>Youtube Channels for Web dev &#9749;</h4>
+              <p>
+                When I start to study Web Development I struggled to find a good
+                mentor to teach me the basics and make me love this career but
+                after a lot of searching, I&apos;ve found my top instructors and
+                I&apos;ve learned from them so much.
+              </p>
+              <a href="https://www.youtube.com/c/TheCoderCoder/featured">
+                CoderCoder
+              </a>
+              <br />
+              <a href="https://www.youtube.com/c/ElzeroInfo">
+                Elzero WebSchool
+              </a>
+              <br />
+              <a href="https://www.youtube.com/c/DennisIvy">DennisIvy</a> <br />
+              <a href="https://www.youtube.com/channel/UC-MNF_TXywelItd7M8d-uHA">
+                kimz codes
+              </a>
+              <br />
+              <a href="https://www.youtube.com/c/DesignCourse">DesignCourse</a>
+              <br />
+              <a href="https://www.youtube.com/c/DevEd">Dev Ed</a> <br />
+              <a href="https://www.youtube.com/colbz">Colby Fayock</a> <br />
+              <a href="https://www.youtube.com/c/TraversyMedia">
+                Traversy Media
+              </a>
+              <br />
+              <a href="https://www.youtube.com/c/Fireship">Fireship</a> <br />
+              <a href="https://www.youtube.com/c/Codezilla">Codezilla</a> <br />
+              <a href="https://www.youtube.com/c/ChrisCourses">Chris Courses</a>
+              <br />
+              <a href="https://www.youtube.com/kepowob">Kevin Powell</a> <br />
+              <a href="https://www.youtube.com/c/Freecodecamp">
+                freeCodeCamp.org
+              </a>
+              <br />
+              <a href="https://www.youtube.com/c/AdrianTwarog">Adrian Twarog</a>
+              <br />
+              <a href="https://www.youtube.com/channel/UCMHlhjLjBa-1txotColRXgw/videos">
+                TK
+              </a>
+              <br />
+              <a href="https://www.youtube.com/c/JavaScriptMastery">
+                JavaScript Mastery
+              </a>
+              <br />
+              <a href="https://www.youtube.com/c/WebDevSimplified">
+                Web Dev Simplified
+              </a>
+              <br />
+              <a href="https://www.youtube.com/c/TheNetNinja">The Net Ninja</a>
+              <br />
+              <a href="https://www.youtube.com/c/wcandillon/featured">
+                William Candillon
+              </a>
+              <br />
+              <div className={styles.youtube}>
+                <ReactPlayer
+                  className={styles.ReactPlayer}
+                  url="https://youtu.be/D-_cGLonkCQ"
+                  width="100%"
+                  height="100%"
+                  controls={true}
+                />
+              </div>
+            </div>
+          </motion.div>
+          <motion.div variants={fadeInUp} className={styles.blogContent}>
+            <div className={styles.blogHead}>
+              <div className={styles.avatar}>
+                <Image
+                  src="/negm.jpg"
+                  className={styles.image}
+                  height={10}
+                  width={10}
+                  alt="person"
+                  layout="responsive"
+                />
+              </div>
+              <h3>Ahmad Nagm</h3>
+            </div>
+            <div className={styles.text}>
               <h4>What is the most difficult Situation for me? 🙁</h4>
               <p>
                 The most difficult Situation for me? is The start of every
@@ -164,34 +247,30 @@ const blog = () => {
               <a href="http://www.flaticon.com/">flaticon.com</a> <br />
               <a href="http://dryicons.com/">dryicons</a> <br />
               <a href="http://mricons.com/">mricons</a> <br />
-              <a href="http://graphicburger.com/icons-set/">
-                graphicburger
-              </a>{" "}
+              <a href="http://graphicburger.com/icons-set/">graphicburger</a>
               <br />
               <a href="http://www.pixeden.com/icons-set">pixeden</a> <br />
               <a href="https://www.iconfinder.com/">iconfinder</a> <br />
               <a href="http://mariodelvalle.github.io/CaptainIconWeb/">
                 Captain Icon
-              </a>{" "}
+              </a>
               <br />
               <a href="http://goodstuffnononsense.com/portfolio_tag/free/">
                 Good Stuff Nonsense
-              </a>{" "}
+              </a>
               <br />
               <a href="http://freebiesbug.com/psd-freebies/icons/">
                 freebies bug
-              </a>{" "}
+              </a>
               <br />
               <a href="http://designbeep.com/category/freebies/icons-freebies/">
                 designbeep
-              </a>{" "}
+              </a>
               <br />
               <a href="https://unsplash.com/">unsplash</a> <br />
               <a href="https://www.pexels.com/">pexels</a> <br />
               <a href="https://www.vecteezy.com/free-photos">vecteezy</a> <br />
-              <a href="https://pixabay.com/photos/search/business/">
-                pixabay
-              </a>{" "}
+              <a href="https://pixabay.com/photos/search/business/">pixabay</a>
               <br />
             </div>
           </motion.div>
@@ -308,90 +387,6 @@ const blog = () => {
                 make life easier for yourself! Start adapting, develop a
                 website, and get ready to collect the benefits of your success.
               </p>
-            </div>
-          </motion.div>
-
-          <motion.div variants={fadeInUp} className={styles.blogContent}>
-            <div className={styles.blogHead}>
-              <div className={styles.avatar}>
-                <Image
-                  src="/negm.jpg"
-                  className={styles.image}
-                  height={10}
-                  width={10}
-                  alt="person"
-                  layout="responsive"
-                />
-              </div>
-              <h3>Ahmad Nagm</h3>
-            </div>
-            <div className={styles.text}>
-              <h4>Top 10 Youtube Channels for Web dev &#9749;</h4>
-              <p>
-                When I start to study Web Development I struggled to find a good
-                mentor to teach me the basics and make me love this career but
-                after a lot of searching, I&apos;ve found my top 10 instructors
-                and I&apos;ve learned from them so much.
-              </p>
-              <a href="https://www.youtube.com/c/ElzeroInfo">
-                Elzero WebSchool
-              </a>
-              <br />
-              <a href="https://www.youtube.com/c/TheCoderCoder/featured">
-                CoderCode
-              </a>
-              <br />
-              <a href="https://www.youtube.com/c/DennisIvy">DennisIvy</a> <br />
-              <a href="https://www.youtube.com/channel/UC-MNF_TXywelItd7M8d-uHA">
-                kimz codes
-              </a>
-              <br />
-              <a href="https://www.youtube.com/c/DesignCourse">DesignCourse</a>
-              <br />
-              <a href="https://www.youtube.com/c/DevEd">Dev Ed</a> <br />
-              <a href="https://www.youtube.com/colbz">Colby Fayock</a> <br />
-              <a href="https://www.youtube.com/c/TraversyMedia">
-                Traversy Media
-              </a>
-              <br />
-              <a href="https://www.youtube.com/c/Fireship">Fireship</a> <br />
-              <a href="https://www.youtube.com/c/Codezilla">Codezilla</a> <br />
-              <a href="https://www.youtube.com/c/ChrisCourses">Chris Courses</a>
-              <br />
-              <a href="https://www.youtube.com/kepowob">Kevin Powell</a> <br />
-              <a href="https://www.youtube.com/c/Freecodecamp">
-                freeCodeCamp.org
-              </a>
-              <br />
-              <a href="https://www.youtube.com/c/AdrianTwarog">Adrian Twarog</a>
-              <br />
-              <a href="https://www.youtube.com/channel/UCMHlhjLjBa-1txotColRXgw/videos">
-                TK
-              </a>
-              <br />
-              <a href="https://www.youtube.com/c/JavaScriptMastery">
-                JavaScript Mastery
-              </a>
-              <br />
-              <a href="https://www.youtube.com/c/WebDevSimplified">
-                Web Dev Simplified
-              </a>
-              <br />
-              <a href="https://www.youtube.com/c/TheNetNinja">The Net Ninja</a>
-              <br />
-              <a href="https://www.youtube.com/c/wcandillon/featured">
-                William Candillon
-              </a>
-              <br />
-              <div className={styles.youtube}>
-                <ReactPlayer
-                  className={styles.ReactPlayer}
-                  url="https://youtu.be/D-_cGLonkCQ"
-                  width="100%"
-                  height="100%"
-                  controls={true}
-                />
-              </div>
             </div>
           </motion.div>
         </motion.div>

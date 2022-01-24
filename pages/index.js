@@ -94,7 +94,7 @@ export default function Home() {
                 },
               }}
             >
-              <h1>Hi, I&apos;m Ahmad Nagm</h1>
+              <h1>Hi!👋🏼 I&apos;m Ahmad Nagm</h1>
             </motion.div>
             <motion.div variants={stagger} className={styles.wrapper}>
               <div className={styles.mac}>
@@ -303,13 +303,13 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <h4>Chat Website</h4>
                   <p>Awesome Simple Design for chat website....</p>
-                  <Link href="/work/1">Read more</Link>
+                  <Link href="/work/one">Read more</Link>
                 </div>
               </div>
               <div className={styles.card}>
                 <div className={styles.cardImg}>
                   <Image
-                    src="/5.png"
+                    src="/1a.png"
                     className={styles.image}
                     height={400}
                     width={600}
@@ -320,7 +320,7 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <h4>Game Website Layout</h4>
                   <p>Game website design with dark colors...</p>
-                  <Link href="/work/1">Read more</Link>
+                  <Link href="/work/two">Read more</Link>
                 </div>
               </div>
               <div className={styles.card}>
@@ -337,7 +337,7 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <h4>Landing Page</h4>
                   <p>Awesome Landing Page Design for a Company website...</p>
-                  <Link href="/work/1">Read more</Link>
+                  <Link href="/work/three">Read more</Link>
                 </div>
               </div>
             </div>
