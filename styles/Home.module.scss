@@ -22,7 +22,7 @@
       grid-template-areas:
         "mac mac"
         "leftColumn rightColumn";
-
+      overflow: hidden;
       .mac {
         grid-area: mac;
         border-bottom: var(--borderColor);
@@ -78,8 +78,7 @@
             border-radius: 50%;
             object-fit: contain;
             &:hover {
-              filter: opacity(0.7);
-              transform: rotate(-5deg);
+              filter: opacity(0.8);
             }
           }
         }

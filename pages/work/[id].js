@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination, Navigation } from "swiper/core";
+import { motion } from "framer-motion";
+
 import Link from "next/link";
 import styles from "/styles/project.module.scss";
 
@@ -11,7 +13,26 @@ const Project = () => {
   return (
     <div>
       <div className={styles.container}>
-        <h1>Project Details</h1>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: {
+              scale: 0.8,
+              opacity: 0,
+            },
+            visible: {
+              scale: 1,
+              opacity: 1,
+              transition: {
+                delay: 0.4,
+              },
+            },
+          }}
+        >
+          <h1>Project Details</h1>
+        </motion.div>
+
         <div className={styles.btncon}>
           <Link href="/work">
             <a className={styles.goback}>Go Back</a>
