@@ -67,18 +67,26 @@
         padding: 50px 0 50px 0;
         .profilePic {
           display: block;
-          width: 100%;
+          width: 90%;
           height: fit-content;
           margin: 0 auto;
           margin-bottom: 0.5rem;
           padding: 0 2rem;
           overflow: hidden;
           border-radius: 50%;
+          &:hover {
+            img {
+              transform: scale(1.01);
+            }
+          }
           img {
+            border: 2px solid var(--borderColor);
             border-radius: 50%;
             object-fit: contain;
+            overflow: hidden;
+            filter: grayscale(0.5);
             &:hover {
-              filter: opacity(0.8);
+              filter: brightness(1.2) grayscale(0);
             }
           }
         }
@@ -298,10 +306,13 @@
           img {
             object-fit: contain;
             transform: scale(1.5);
+            filter: grayscale(0);
           }
           &:hover {
             border-radius: 0px;
             img {
+              filter: grayscale(0.3);
+
               transform: rotate(2deg) scale(1.6);
             }
           }
@@ -525,7 +536,7 @@
                 border-width: 5px;
                 transition: border 0.2s ease-in-out;
               }
-              background-color: #7e4c74;
+              background-color: #11243b;
             }
           }
           p {
@@ -866,7 +877,7 @@
                 border-width: 5px;
                 transition: border 0.2s ease-in-out;
               }
-              background-color: #7e4c74;
+              background-color: #11243b;
             }
           }
           p {
