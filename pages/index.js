@@ -108,7 +108,7 @@ export default function Home() {
                 <div>
                   <div className={styles.profilePic}>
                     <Image
-                      src="/ngm.png"
+                      src="/neggm.png"
                       alt="person"
                       height={400}
                       width={600}

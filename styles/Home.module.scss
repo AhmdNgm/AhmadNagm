@@ -65,6 +65,17 @@
       .leftColumn {
         grid-area: leftColumn;
         padding: 50px 0 50px 0;
+        @keyframes float {
+          0% {
+            transform: translatey(0px);
+          }
+          50% {
+            transform: translatey(-20px);
+          }
+          100% {
+            transform: translatey(0px);
+          }
+        }
         .profilePic {
           display: block;
           width: 90%;
@@ -73,18 +84,14 @@
           margin-bottom: 0.5rem;
           padding: 0 2rem;
           overflow: hidden;
-          border-radius: 50%;
-          &:hover {
-            img {
-              transform: scale(1.01);
-            }
-          }
+          transform: translatey(0px);
+          animation: float 6s ease-in-out infinite;
           img {
             border: 2px solid var(--borderColor);
             border-radius: 50%;
             object-fit: contain;
             overflow: hidden;
-            filter: grayscale(0.5);
+
             &:hover {
               filter: brightness(1.2) grayscale(0);
             }
@@ -303,6 +310,8 @@
           border: 1px solid var(--borderColor);
           border-radius: 15px;
           overflow: hidden;
+          transform: translatey(0px);
+          animation: float 6s ease-in-out infinite;
           img {
             object-fit: contain;
             transform: scale(1.5);

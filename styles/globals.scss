@@ -222,7 +222,7 @@ footer {
     width: 100%;
     background-color: var(--mainColor);
     border-bottom: 1px solid var(--borderColor);
-
+    transition: all 0.4s ease-in-out;
     ul {
       display: flex;
       width: 90%;
@@ -230,16 +230,20 @@ footer {
       flex-wrap: wrap;
       li {
         margin: 18px 5px;
+        &:first-child {
+          margin-left: 0;
+        }
         a {
           font-family: "Russo One", sans-serif;
           font-weight: 500;
           color: var(--mainText);
-          border: 1px solid var(--mainText);
+          border: 1px solid var(--borderColor);
           padding: 10px;
-          border-radius: 2px;
+          border-radius: 10px;
           &:hover {
             color: var(--linkColor);
             border: 1px solid var(--linkColor);
+            border-radius: 0px;
           }
         }
       }

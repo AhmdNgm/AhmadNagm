@@ -232,6 +232,12 @@
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 800px) {
+  .title {
+    font-size: 2rem;
+    padding: 2rem 0 !important;
+  }
+}
 @media screen and (max-width: 600px) {
   .title {
     font-size: 2rem;

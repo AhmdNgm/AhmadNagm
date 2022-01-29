@@ -7,8 +7,8 @@
   }
   .cardContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 320px);
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, 370px);
+    gap: 40px;
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -76,7 +76,7 @@
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .title {
     padding: 2rem 0 0 !important;
     font-size: 2rem;
