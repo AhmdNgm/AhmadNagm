@@ -6,6 +6,8 @@ import { useTheme } from "next-themes";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaintBrush } from "@fortawesome/free-solid-svg-icons";
+import Slider from "react-slick";
+
 import {
   faBehance,
   faBootstrap,
@@ -22,6 +24,7 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 import { motion } from "framer-motion";
+import slider from "react-slick/lib/slider";
 export default function Home() {
   const easing = [0.6, -0.05, 0.01, 0.99];
   const fadeInUp = {
@@ -46,7 +49,9 @@ export default function Home() {
       },
     },
   };
+
   const { theme, setTheme } = useTheme();
+
   return (
     <>
       <Head>
@@ -341,6 +346,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div></div>
           </div>
         </div>
       </motion.div>

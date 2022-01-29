@@ -3,6 +3,7 @@ import "../styles/globals.scss";
 import "swiper/components/pagination/pagination.scss";
 import "swiper/components/navigation/navigation.scss";
 import "swiper/swiper.scss";
+
 import { AnimatePresence } from "framer-motion";
 import React from "react";
 import { ThemeProvider, useTheme } from "next-themes";

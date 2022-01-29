@@ -43,7 +43,7 @@ const Project = () => {
             <Swiper spaceBetween={10} slidesPerView={1} loop navigation>
               <SwiperSlide>
                 <Image
-                  src="/nine.png"
+                  src="/9.png"
                   className={styles.image}
                   height={400}
                   width={600}
@@ -104,6 +104,46 @@ const Project = () => {
               <SwiperSlide>
                 <Image
                   src="/9f.png"
+                  className={styles.image}
+                  height={400}
+                  width={600}
+                  alt="person"
+                  layout="responsive"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="/9g.png"
+                  className={styles.image}
+                  height={400}
+                  width={600}
+                  alt="person"
+                  layout="responsive"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="/9h.png"
+                  className={styles.image}
+                  height={400}
+                  width={600}
+                  alt="person"
+                  layout="responsive"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="/9i.png"
+                  className={styles.image}
+                  height={400}
+                  width={600}
+                  alt="person"
+                  layout="responsive"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Image
+                  src="/9j.png"
                   className={styles.image}
                   height={400}
                   width={600}

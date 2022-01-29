@@ -219,7 +219,7 @@ const work = () => {
           <motion.div variants={fadeInUp} className={styles.card}>
             <div className={styles.cardImg}>
               <Image
-                src="/9f.png"
+                src="/9.png"
                 className={styles.image}
                 height={400}
                 width={600}
