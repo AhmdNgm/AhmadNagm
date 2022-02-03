@@ -185,6 +185,7 @@ export default function Home() {
                   <a
                     href="https://drive.google.com/file/d/1OYOxp7OGEkUzHkV31Fn0cTUByaohwJNW/view?usp=sharing"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Download Resume
                   </a>
@@ -284,6 +285,7 @@ export default function Home() {
                   <a
                     href="https://www.facebook.com/ahmad.magdy.129/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <h4>
                       <FontAwesomeIcon icon={faFacebook} />
@@ -293,13 +295,18 @@ export default function Home() {
                   <a
                     href="https://www.instagram.com/ahmed_magdy_negm/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <h4>
                       <FontAwesomeIcon icon={faInstagram} />
                     </h4>
                   </a>
 
-                  <a href="https://twitter.com/DevAhmdNagm" target="_blank">
+                  <a
+                    href="https://twitter.com/DevAhmdNagm"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <h4>
                       <FontAwesomeIcon icon={faTwitter} />
                     </h4>
@@ -308,6 +315,7 @@ export default function Home() {
                   <a
                     href="https://www.linkedin.com/in/ahmad-negm/"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <h4>
                       <FontAwesomeIcon icon={faLinkedin} />
@@ -317,6 +325,7 @@ export default function Home() {
                   <a
                     href="https://www.behance.net/ahmadnegm2000"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <h4>
                       <FontAwesomeIcon icon={faBehance} />
@@ -326,6 +335,7 @@ export default function Home() {
                   <a
                     href="https://www.youtube.com/channel/UCGjOEhwmaJsha-cVvLVTXbA"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     <h4>
                       <FontAwesomeIcon icon={faYoutube} />
@@ -354,7 +364,7 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <h4>Chat Website</h4>
                   <p>Awesome Simple Design for chat website....</p>
-                  <Link href="/work/one" target="_blank">
+                  <Link href="/work/one" target="_blank" rel="noreferrer">
                     Read more
                   </Link>
                 </div>
@@ -373,7 +383,7 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <h4>Game Website Layout</h4>
                   <p>Game website design with dark colors...</p>
-                  <Link href="/work/two" target="_blank">
+                  <Link href="/work/two" target="_blank" rel="noreferrer">
                     Read more
                   </Link>
                 </div>
@@ -392,7 +402,7 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <h4>Landing Page</h4>
                   <p>Awesome Landing Page Design for a Company website...</p>
-                  <Link href="/work/three" target="_blank">
+                  <Link href="/work/three" target="_blank" rel="noreferrer">
                     Read more
                   </Link>
                 </div>
