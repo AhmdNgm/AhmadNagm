@@ -7,6 +7,10 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaintBrush } from "@fortawesome/free-solid-svg-icons";
 import Slider from "react-slick";
+import { GrReactjs } from "react-icons/gr";
+import { SiNextdotjs } from "react-icons/si";
+import { BiGitBranch } from "react-icons/bi";
+import { BsGithub } from "react-icons/bs";
 
 import {
   faBehance,
@@ -178,7 +182,10 @@ export default function Home() {
                 <h4>TOP EXPERTICE </h4>
                 <p>
                   Front-end developer with 2 years of Professional Experience |
-                  <a href="#" target="_blank">
+                  <a
+                    href="https://drive.google.com/file/d/1OYOxp7OGEkUzHkV31Fn0cTUByaohwJNW/view?usp=sharing"
+                    target="_blank"
+                  >
                     Download Resume
                   </a>
                 </p>
@@ -208,6 +215,18 @@ export default function Home() {
                       </span>
                       Jquery
                     </li>
+                    <li>
+                      <span>
+                        <GrReactjs />
+                      </span>
+                      REACT Js
+                    </li>
+                    <li>
+                      <span>
+                        <SiNextdotjs />
+                      </span>
+                      NEXT Js
+                    </li>
                   </ul>
                   <ul>
                     <li>
@@ -234,6 +253,18 @@ export default function Home() {
                       </span>
                       Figma
                     </li>
+                    <li>
+                      <span>
+                        <BiGitBranch />
+                      </span>
+                      Git
+                    </li>
+                    <li>
+                      <span>
+                        <BsGithub />
+                      </span>
+                      Github
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -250,37 +281,52 @@ export default function Home() {
                 </div>
                 <h3>Find Me On</h3>
                 <div className={styles.socialLinks}>
-                  <a href="https://www.facebook.com/ahmad.magdy.129/">
+                  <a
+                    href="https://www.facebook.com/ahmad.magdy.129/"
+                    target="_blank"
+                  >
                     <h4>
                       <FontAwesomeIcon icon={faFacebook} />
                     </h4>
                   </a>
 
-                  <a href="https://www.instagram.com/ahmed_magdy_negm/">
+                  <a
+                    href="https://www.instagram.com/ahmed_magdy_negm/"
+                    target="_blank"
+                  >
                     <h4>
                       <FontAwesomeIcon icon={faInstagram} />
                     </h4>
                   </a>
 
-                  <a href="https://twitter.com/DevAhmdNagm">
+                  <a href="https://twitter.com/DevAhmdNagm" target="_blank">
                     <h4>
                       <FontAwesomeIcon icon={faTwitter} />
                     </h4>
                   </a>
 
-                  <a href="https://www.linkedin.com/in/ahmad-negm/">
+                  <a
+                    href="https://www.linkedin.com/in/ahmad-negm/"
+                    target="_blank"
+                  >
                     <h4>
                       <FontAwesomeIcon icon={faLinkedin} />
                     </h4>
                   </a>
 
-                  <a href="https://www.behance.net/ahmadnegm2000">
+                  <a
+                    href="https://www.behance.net/ahmadnegm2000"
+                    target="_blank"
+                  >
                     <h4>
                       <FontAwesomeIcon icon={faBehance} />
                     </h4>
                   </a>
 
-                  <a href="https://www.youtube.com/channel/UCGjOEhwmaJsha-cVvLVTXbA">
+                  <a
+                    href="https://www.youtube.com/channel/UCGjOEhwmaJsha-cVvLVTXbA"
+                    target="_blank"
+                  >
                     <h4>
                       <FontAwesomeIcon icon={faYoutube} />
                     </h4>
@@ -308,7 +354,9 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <h4>Chat Website</h4>
                   <p>Awesome Simple Design for chat website....</p>
-                  <Link href="/work/one">Read more</Link>
+                  <Link href="/work/one" target="_blank">
+                    Read more
+                  </Link>
                 </div>
               </div>
               <div className={styles.card}>
@@ -325,7 +373,9 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <h4>Game Website Layout</h4>
                   <p>Game website design with dark colors...</p>
-                  <Link href="/work/two">Read more</Link>
+                  <Link href="/work/two" target="_blank">
+                    Read more
+                  </Link>
                 </div>
               </div>
               <div className={styles.card}>
@@ -342,7 +392,9 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <h4>Landing Page</h4>
                   <p>Awesome Landing Page Design for a Company website...</p>
-                  <Link href="/work/three">Read more</Link>
+                  <Link href="/work/three" target="_blank">
+                    Read more
+                  </Link>
                 </div>
               </div>
             </div>

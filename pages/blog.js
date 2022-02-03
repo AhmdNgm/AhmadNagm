@@ -76,6 +76,29 @@ const blog = () => {
               <h3>Ahmad Nagm</h3>
             </div>
             <div className={styles.text}>
+              <p>
+                At this point, I became ok with not being up-to-date with
+                everything in tech. I chose the technologies I want to focus on,
+                and will keep at it. Trying to learn everything was my biggest
+                source of energy loss and stress 💻
+              </p>
+            </div>
+          </motion.div>
+          <motion.div variants={fadeInUp} className={styles.blogContent}>
+            <div className={styles.blogHead}>
+              <div className={styles.avatar}>
+                <Image
+                  src="/neggm.png"
+                  className={styles.image}
+                  height={10}
+                  width={10}
+                  alt="person"
+                  layout="responsive"
+                />
+              </div>
+              <h3>Ahmad Nagm</h3>
+            </div>
+            <div className={styles.text}>
               <h4>Youtube Channels for Web dev &#9749;</h4>
               <p>
                 When I start to study Web Development I struggled to find a good
